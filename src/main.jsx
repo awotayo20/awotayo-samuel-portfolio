@@ -6,11 +6,12 @@ import './index.css'
 import WorkPage from './components/work/WorkPage.jsx'
 import AboutPage from './components/about/AboutPage.jsx'
 import ContactPage from './components/contact/ContactPage.jsx'
+import HomePage from './components/HomePage/HomePage.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: <HomePage />,
   },
   {
     path: '/work',

@@ -4,7 +4,7 @@ import Github from './../../assets/svg/github.svg'
 import Passport from './../../assets/images/passportNBg.png'
 import Stacks from './Stacks'
 import Contact from '../contact/ContactFrontPage'
-import Header from '../landingPage/Header'
+import Header from '../HomePage/Header'
 
 const AboutPage = () => {
   return (

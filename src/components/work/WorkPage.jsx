@@ -1,6 +1,6 @@
 import { ProjectSample } from './ProjectsFrontPage'
 import projectStore from './../../ProjectStore'
-import Header from '../landingPage/Header'
+import Header from '../HomePage/Header'
 
 const WorkPage = () => {
   return (
