@@ -1,5 +1,5 @@
 import Snap from './assets/images/projectImages/snapPicture.webp'
-import EasyBank from './assets/images/projectImages/easybankPicture.webp'
+import EasyBank from './assets/images/projectImages/EasybankPicture.webp'
 const projectStore = [
   {
     id: 1,
