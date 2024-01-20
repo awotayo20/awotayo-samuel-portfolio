@@ -12,7 +12,7 @@ import ContactPage from './components/contact/ContactPage.jsx'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <LandingPage />,
+    element: <App />,
   },
   {
     path: '/work',
