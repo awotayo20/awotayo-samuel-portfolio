@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0a0a0a;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --Bebas: 'Bebas Neue', sans-serif;
+  --Inter: 'Inter', sans-serif;
+  --Manrope: 'Manrope', sans-serif;
+}
+
+.nav-items ul li a {
+  font-family: var(--Inter);
+  font-weight: 500;
+  color: #c5c5c5;
+  font-size: 16px;
+  letter-spacing: -3%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form div label {
+  color: #c7c7c7;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--Manrope);
+  display: block;
+}
+
+.form div input,
+textarea {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--Manrope);
+  padding: 10px 16px;
+  background-color: #1a1a1a;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+  margin-top: 8px;
+}
