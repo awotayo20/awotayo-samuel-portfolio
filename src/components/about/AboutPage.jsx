@@ -1,6 +1,6 @@
 import Download from './../../assets/svg/download.svg'
 import Linkedin from './../../assets/svg/Linkedin.png'
-import Github from './../../assets/svg/Github.svg'
+import Github from './../../assets/svg/github.svg'
 import Passport from './../../assets/images/passportNBg.png'
 import Stacks from './Stacks'
 import Contact from '../contact/ContactFrontPage'
