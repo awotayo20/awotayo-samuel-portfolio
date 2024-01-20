@@ -16,7 +16,7 @@ const Header = () => {
             </li>
 
             <li>
-              <a href="/work">Work</a>
+              <a href={`/work`}>Work</a>
             </li>
 
             <li>
