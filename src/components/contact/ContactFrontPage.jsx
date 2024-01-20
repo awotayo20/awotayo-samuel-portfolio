@@ -1,8 +1,5 @@
 import Github from '../../assets/svg/github.svg'
-import Instagram from '../../assets/svg/instagram.svg'
-import Linkedin from '../../assets/svg/Linkedin.svg'
-import Twitter from '../../assets/svg/twitter.svg'
-import Header from '../landingPage/Header'
+import Linkedin from '../../assets/svg/linkedin.svg'
 const Contact = () => {
   return (
     <>
