@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <div className="flex relative z-10 w-full h-[76px] lg:h-[96px] items-center justify-between px-4 lg:px-16">
         <h2 className="font-Bebas_Neue text-[#C7C7C7] text-[28px] lg:text-[32px]">
-          A S.
+          <a href="/">A S.</a>
         </h2>
         <div className=" hidden lg:block nav-items">
           <ul className="flex gap-8">
