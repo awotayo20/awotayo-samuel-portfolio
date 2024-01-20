@@ -16,11 +16,13 @@ const AboutFrontPage = () => {
             <p className="text-[#C7C7C7] text-[16px] lg:text-[18px] leading-[26px] lg:leading-[150%] font-Manrope font-[400] mt-2">
               My name is Awotayo Samuel, A Nigerian based front-end developer
               passionate about building accessible and user friendly websites...{' '}
+              click{' '}
               <a href="/about">
                 <span className="py-4 text-[#D3E97A] hover:border-b-2 border-[#D3E97A] pb-1 cursor-pointer duration-300">
-                  more about me
+                  here
                 </span>
-              </a>
+              </a>{' '}
+              to know more about me
             </p>
           </div>
           <div className="flex h-[48px] items-center gap-4">

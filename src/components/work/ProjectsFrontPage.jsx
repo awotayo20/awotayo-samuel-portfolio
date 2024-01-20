@@ -25,6 +25,18 @@ const Projects = () => {
           githubLink={'#'}
           liveLink={'#'}
         />
+        <div>
+          <p className="text-white text-center my-9">
+            Click{' '}
+            <a
+              href="/work"
+              className="text-[#D3E97A] hover:underline underline-offset-8 duration-300"
+            >
+              here
+            </a>{' '}
+            to view more
+          </p>
+        </div>
       </div>
     </div>
   )
