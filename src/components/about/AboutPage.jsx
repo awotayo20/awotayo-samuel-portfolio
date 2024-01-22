@@ -32,16 +32,17 @@ export const AboutMe = () => {
         About me
       </h2>
       <div className="col-span-2 mt-4 lg:mt-0 lg:mt0">
-        <h4 className="text-white text-2xl font-Manrope font-medium leading-[34px]">
-          I am a front-end developer based in Nigeria. Has Materials and
-          Metallurgical Engineering background.
-        </h4>
         <p className="text-[#C7C7C7] mt-2 text-base font-Manrope font-normal leading-7z">
-          I am a front-end developer based in Nigeria looking for exciting
-          opportunities. Has Materials and metallurgical Engineering background.
-          Likes to focus on accessibility when developing. Passionate and
-          curious about solving problems. Currently, I’m exploring Reactjs,
-          Webflow and a bit of Designing. While I am not programming, I enjoy
+          I’m Awotayo Samuel, a Nigerian based frontend web developer, I am
+          passionate about building accessible and user-friendly web interfaces
+          using HTML, CSS and JavaScript with other frameworks. I have a
+          bachelor of engineering degree in metallurgical and materials
+          engineering, and a responsive web design certification. I have
+          contributed to multiple projects for clients in various industries. I
+          enjoy working with a diverse and collaborative team, and I am always
+          eager to learn new technologies and best practices. My goal is to
+          deliver high-quality and accessible web solutions that meet the needs
+          and expectations of the users. While I am not programming, I enjoy
           playing video games, photography and playing musical instrument.
           Learning more to improve skill.
         </p>

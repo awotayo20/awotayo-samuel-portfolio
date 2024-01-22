@@ -37,7 +37,7 @@ const AboutFrontPage = () => {
               </div>
             </a>
             <button className="text-[#D3E97A] hidden lg:block hover:border-b border-0 border-[#D3E97A] duration-300">
-              VIEW RESUME
+              <a href="src\assets\CV\Awotayo Samuel CV.pdf">VIEW RESUME</a>
             </button>
 
             <div className="h-[40px] w-[40px] flex items-center justify-center rounded-full bg-[#222222]">
