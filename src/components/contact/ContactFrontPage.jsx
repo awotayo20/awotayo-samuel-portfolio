@@ -1,5 +1,6 @@
 import Github from '../../assets/svg/github.svg'
 import Linkedin from '../../assets/svg/linkedin.svg'
+import pdf from '../../assets/CV/AwotayoSamuelCV.pdf'
 const Contact = () => {
   return (
     <>
@@ -17,8 +18,10 @@ const Contact = () => {
             </p>
             <p className="text-[#C7C7C7] font-Manrope text-base font-normal mt-2">
               For more info, here’s my{' '}
-              <span className="text-white border-b border-[#D3E97A]">
-                resume
+              <span className=" font-bold text-white border-b border-[#D3E97A]">
+                <a href={pdf} download={'Awotayo Samuel CV'}>
+                  resume
+                </a>
               </span>
             </p>
           </div>
