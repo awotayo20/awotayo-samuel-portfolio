@@ -5,6 +5,7 @@ import Passport from './../../assets/images/passportNBg.png'
 import Stacks from './Stacks'
 import Contact from '../contact/ContactFrontPage'
 import Header from '../HomePage/Header'
+import pdf from '../../assets/CV/AwotayoSamuelCV.pdf'
 
 const AboutPage = () => {
   return (
@@ -48,12 +49,18 @@ export const AboutMe = () => {
         </p>
         <div className="flex items-center gap-3 mt-10">
           <button className="w-[212px] h-[48px] bg-[#D3E97A] flex justify-between px-2 rounded-full gap-[12] items-center ">
-            <span>DOWNLOAD RESUME</span>{' '}
-            <img
-              src={Download}
-              alt="resume"
-              className="bg-black p-2 rounded-full"
-            />
+            <a
+              href={pdf}
+              download={'Awotayo Samuel CV'}
+              className="flex justify-between w-full items-center"
+            >
+              <span>DOWNLOAD RESUME</span>{' '}
+              <img
+                src={Download}
+                alt="resume"
+                className="bg-black p-2 rounded-full"
+              />
+            </a>
           </button>
           <img
             src={Github}
