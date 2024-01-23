@@ -1,6 +1,8 @@
 import Github from '../../assets/svg/github.svg'
 import Linkedin from '../../assets/svg/linkedin.svg'
 import pdf from '../../assets/CV/AwotayoSamuelCV.pdf'
+import { Form } from './Form'
+
 const Contact = () => {
   return (
     <>
@@ -46,36 +48,3 @@ const Contact = () => {
 }
 
 export default Contact
-
-export const Form = () => {
-  return (
-    <div className="my-[64px] lg:my-0">
-      <form action="">
-        <div className="form">
-          <div>
-            <label htmlFor="name">Name</label>
-            <input type="text" name="name" />
-          </div>
-          <div>
-            <label htmlFor="email">Email</label>
-            <input type="email" name="" />
-          </div>
-          <div>
-            <label htmlFor="subject">Subject</label>
-            <input type="text" name="subject" />
-          </div>
-          <div>
-            <label htmlFor="message">Message</label>
-            <textarea name="" rows="5"></textarea>
-          </div>
-          <button
-            type="submit"
-            className="px-10 py-3 bg-[#D3E97A] font-Manrope font-bold rounded-full max-w-[140px]"
-          >
-            Submit
-          </button>
-        </div>
-      </form>
-    </div>
-  )
-}
