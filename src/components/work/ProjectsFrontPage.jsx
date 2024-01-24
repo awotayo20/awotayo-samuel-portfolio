@@ -19,7 +19,7 @@ const Projects = () => {
           title={'SamFood'}
           picture={SamfoodImage}
           subtitle={
-            "This challenge focuses mostly on HTML & CSS. There's a tiny bit of JS included for the mobile navigation toggle. This challenge was set to perfect CSS Grid and also to practice my layout skills!"
+            'This is a food store website that I created using ReactJS and Redux Toolkit. It is a responsive and user-friendly e-commerce platform that allows customers to browse. The website features: A modern and attractive UI design with animations and carousels, A product catalog with categories, filters, and search functionality.'
           }
           Role={'Front-end Developer'}
           year={'2023'}
