@@ -1,6 +1,7 @@
 import Arrow from '../../assets/svg/arrow.svg'
 import GitHub from '../../assets/svg/github.svg'
 import LoopstudioImage from '../../assets/images/projectImages/LoopstudioProject.png'
+import SamfoodImage from '../../assets/images/projectImages/samFoodPic.jpeg'
 const Projects = () => {
   return (
     <div className="mx-4 max-w-[1200px] lg:mx-auto">
@@ -15,6 +16,17 @@ const Projects = () => {
           </p>
         </div>
         <ProjectSample
+          title={'SamFood'}
+          picture={SamfoodImage}
+          subtitle={
+            "This challenge focuses mostly on HTML & CSS. There's a tiny bit of JS included for the mobile navigation toggle. This challenge was set to perfect CSS Grid and also to practice my layout skills!"
+          }
+          Role={'Front-end Developer'}
+          year={'2023'}
+          githubLink={'https://github.com/awotayo20/samFood'}
+          liveLink={'https://samfood.vercel.app/'}
+        />
+        <ProjectSample
           title={'Loopstudios landing page'}
           picture={LoopstudioImage}
           subtitle={
@@ -22,8 +34,8 @@ const Projects = () => {
           }
           Role={'Front-end Developer'}
           year={'2023'}
-          githubLink={'#'}
-          liveLink={'#'}
+          githubLink={'https://github.com/awotayo20/Loopstudios-landing-page'}
+          liveLink={'https://guileless-dango-a2353c.netlify.app/'}
         />
         <div>
           <p className="text-white text-center my-9">
@@ -55,8 +67,12 @@ export const ProjectSample = ({
 }) => {
   return (
     <div className="text-white my-20 lg:grid grid-cols-2 gap-12">
-      <div>
-        <img src={picture} alt={title} className="rounded-lg mx-auto" />
+      <div className="max-w-[576px] max-h-[428px] overflow-hidden rounded-xl">
+        <img
+          src={picture}
+          alt={title}
+          className="rounded-lg mx-auto object-fill"
+        />
       </div>
       <div>
         <h3 className=" font-Manrope text-2xl font-medium mt-4">{title}</h3>
