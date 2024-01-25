@@ -10,7 +10,7 @@ const AboutFrontPage = () => {
         <div className="mx-auto px-4 mt-[45px] lg:mt-0 flex flex-col gap-8 col-span-2">
           <div className="w-full">
             <h1 className="text-[#fff] text-[36px] lg:text-[74px] font-Bebas_Neue font-[500] leading-[45px] lg:leading-[90%] uppercase">
-              hi, i am <span className="text-[#D3E97A]">frontend</span>{' '}
+              hi, i am a<span className="text-[#D3E97A]">frontend</span>{' '}
               developer .
             </h1>
             <p className="text-[#C7C7C7] text-[16px] lg:text-[18px] leading-[26px] lg:leading-[150%] font-Manrope font-[400] mt-2">
